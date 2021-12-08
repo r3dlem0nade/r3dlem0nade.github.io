@@ -1,0 +1,160 @@
+/* Reset Styles */
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+/* Structure of web page */
+body {
+  background: #0066ff;
+}
+
+/* To create gaps between articles */
+article {
+  margin-top: 15px;
+}
+
+/*  Wrapper to centre webpage in browser */
+div#container {
+  width: 76%;
+  margin: auto;
+  background-color: white;
+  color: black;
+  border: 3px solid black;
+}
+
+/* Style for main content area  */
+main {
+  padding: 50px;
+  color: black;
+  border: 2px solid black;
+}
+
+/* Banner */
+header {
+  padding: 10px;
+  border-bottom: 3px solid Black;
+  background: #123ab3;
+  color: #c9b818;
+}
+
+/* Menu */
+nav {
+  height: 50px;
+  padding: 10px;
+  border-bottom: 2px solid black;
+  background: #123ab3;
+  color: White;
+}
+
+/* Footer */
+footer {
+  clear: both;
+  padding: 10px;
+  border: 5px solid #123ab3;
+  background: #123ab3;
+  color: White;
+}
+
+/* List rules */
+#List {
+  list-style-type: circle;
+  padding-left: 20px;
+}
+
+#List {
+  color: black;
+  text-align: left;
+}
+
+/* font rules */
+header {
+  font-family: "Arial", cursive;
+  font-size: 20px;
+  text-align: left;
+}
+
+nav {
+  font-family: "Arial", cursive;
+  font-size: 14px;
+  text-align: left;
+}
+
+main {
+  font-family: "Arial", cursive;
+  font-size: 14px;
+  text-align: left;
+}
+
+footer {
+  font-family: "Arial", cursive;
+  font-size: 14px;
+  text-align: left;
+}
+
+main h1, h2, h3, h4, h5, h6, {
+  font-family: "Arial", cursive;
+  font-size: 20px;
+  text-align: left;
+}
+
+/* Hyperlink rules */
+footer a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer a:link, a:hover, a:active {
+  color: yellow;
+}
+
+footer a:visited {
+  color: Black;
+}
+
+nav a:link, a:hover, a:active {
+  color: yellow;
+}
+
+nav a:visited {
+  color: Black;
+}
+
+main a:link, a:hover, a:active {
+  color: yellow;
+}
+
+main a:visited {
+  color: Black;
+}
+
+/* Navigation Styles */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  float: left;
+}
+
+nav li a:current {
+  background: DarkSlateBlue;
+}
+
+nav li a:hover {
+  background: DodgerBlue;
+  color: White;
+}
